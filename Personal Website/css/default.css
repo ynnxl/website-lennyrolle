@@ -343,6 +343,7 @@ li {
   }
   .nav--header ul {
     padding: 2.5px;
+    margin-top: 10px;
     padding-bottom: 12.5px;
     display: flex;
     border-radius: 20px;
