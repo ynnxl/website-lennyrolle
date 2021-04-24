@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page--container {
+  max-width: auto;
+  margin: 0 auto;
+}
+.body--container {
+  margin: 3em;
+  max-width: 100%;
+}
+.home--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.project--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.about--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+h1 {
+  font-size: 110%;
+  font-family: Calibri, sans-serif;
+  text-shadow: 0 1px 0 rgb(184, 184, 184), 0 2px 0 #9b9b9b,
+    0 3px 0 rgb(105, 105, 105), 0 4px 0 #555555;
+}
+h2 {
+  color: rgb(114, 114, 114);
+  font-family: Tisa, sans-serif;
+  text-shadow: 1.5px 2px 0px rgb(187, 187, 187);
+}
+/* Navigation Bar */
+
+.nav--header {
+  list-style-type: none;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  -webkit-box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(211, 86, 86);
+}
+.nav--container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px 10px;
+  background-color: transparent;
+}
+.links--header {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  text-shadow: 1.5px 1.5px 1.5px rgb(114, 114, 114);
+  background-color: transparent;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+}
+.logo--header:hover {
+  color: rgb(75, 75, 75);
+  transition: all 0.3s ease 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.links--header a:hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0.1s;
+  transform: scale(1.1);
+  color: rgb(75, 75, 75);
+}
+.links--header a {
+  font-family: Dosis, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* HomePage */
+.group--missionstatement {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid lightcoral;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.title--missionstatement {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.text--missionstatement {
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+  color: rgb(230, 74, 74);
+  padding-top: 30px;
+}
+.group--specilizations {
+  width: 100%;
+  justify-content: space-between;
+  border: 2px solid lightcoral;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+}
+.title--specilizations {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.list--specilizations {
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
+  color: rgb(230, 74, 74);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Projects Page */
+
+.pagetitle--projects {
+  color: rgb(75, 75, 75);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 20px;
+}
+.group--websites {
+  font-family: Dosis, sans-serif;
+  border: 2px solid;
+  width: 100%;
+  height: 300px;
+  padding: 5%;
+  margin-top: 5%;
+  border-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+}
+.group--games {
+  font-family: Dosis, sans-serif;
+  border: 2px solid;
+  width: 100%;
+  height: 300px;
+  padding: 5%;
+  margin-top: 5%;
+  border-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.group--software {
+  font-family: Dosis, sans-serif;
+  border: 2px solid;
+  width: 100%;
+  height: 300px;
+  padding: 5%;
+  margin-top: 5%;
+  border-color: lightcoral;
+  color: white;
+  border-radius: 5px;
+}
+
+/* About Page */
+
+.pagetitle--about {
+  color: rgb(75, 75, 75);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 20px;
+}
+.group--skills {
+  width: 100%;
+  border: 5px solid lightcoral;
+  border-radius: 20px;
+  border-style: double dashed;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.title--skills {
+  font-family: Dosis, sans-serif;
+  font-size: 25px;
+}
+.list--skills {
+  font-family: Calibri, sans-serif;
+  color: rgb(230, 74, 74);
+  padding: 10px;
+}
+.group--experience {
+  width: 100%;
+  border: 5px solid;
+  border-color: lightcoral;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border-style: double dashed;
+}
+.title--experience {
+  font-family: Dosis, sans-serif;
+  font-size: 25px;
+}
+.list--experiences {
+  font-family: Calibri, sans-serif;
+  color: rgb(230, 74, 74);
+  padding: 5px;
+}
+
+/* Contact Page*/
+.contactpage--container .body--container {
+  padding: 5%;
+}
+.pagetitle--contact {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 0px 20px;
+}
+.title--name {
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+}
+.title--phone {
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+}
+.title--email {
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+}
+.title--description {
+  font-size: 20px;
+  font-family: Calibri, sans-serif;
+}
+.my--form input[type="text"],
+.my--form textarea {
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  text-indent: 3%;
+  outline: none;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.my--form input[type="description"],
+.my--form textarea {
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  text-indent: 2%;
+  outline: none;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.my--form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.my--form input:hover[type="submit"] {
+  color: rgb(230, 74, 74);
+  transition: all 0.3s ease 0.1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Footer */
+.main--footer a {
+  font-family: Dosis, Calibri, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.main--footer {
+  color: rgb(230, 74, 74);
+  font-family: Dosis, sans-serif;
+  font-size: 75%;
+  background-color: rgb(75, 75, 75);
+  bottom: 0%;
+  padding-top: 10px;
+  border: 5px solid lightcoral;
+  position: relative;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+.main--footer a:hover {
+  color: rgb(230, 74, 74);
+}
+/* Tablets and under */
+@media (max-width: 768px) {
+  .home--grid,
+  .project--grid,
+  .about--grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .nav--header {
+    height: 110px;
+  }
+  .nav--header .links--header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .nav--header ul {
+    padding: 2.5px;
+    padding-bottom: 12.5px;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(240, 100, 100);
+  }
+}
