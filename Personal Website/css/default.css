@@ -196,13 +196,14 @@ li {
 }
 .btn--resume {
   text-align: center;
+  padding-bottom: 40px;
 }
 .get--resume [type="submit"] {
   width: 100px;
   background-color: lightcoral;
   font-size: 15px;
   font-family: Calibri, sans-serif;
-  border: 2px solid rgb(209, 209, 209);
+  border: 3px solid rgb(209, 209, 209);
   border-radius: 10px;
   text-decoration: none;
   color: white;
