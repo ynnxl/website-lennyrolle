@@ -194,6 +194,24 @@ li {
   text-align: center;
   padding: 0px 0px 20px;
 }
+.btn--resume {
+  text-align: center;
+}
+.get--resume [type="submit"] {
+  width: 100px;
+  background-color: lightcoral;
+  font-size: 15px;
+  font-family: Calibri, sans-serif;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+.get--resume:hover [type="submit"] {
+  color: rgb(105, 105, 105);
+  cursor: pointer;
+}
 .group--skills {
   width: 100%;
   border: 5px solid lightcoral;
