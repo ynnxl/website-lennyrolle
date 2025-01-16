@@ -6,32 +6,35 @@
     <meta name="keywords" content="HTML, CSS">
         <meta name="description" content="...">
     <title>Projects</title>
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="./css/default.css" />
+    <link href="https://fonts.google.com/css?family-Timmana" rel="stylesheet">
+    <link href="https://fonts.google.com/css?family-Overlock" rel="stylesheet">
   </head>
   <body>
     <div class="contactpage--container">
       <div class="nav--header">
-        <div class="nav--container">
-          <div class="links--header">
-        <h1 class="logo--header">Lenny Rolle</h1>
-          
-            <ul>
-              <li><a class="link--home" id="link" href="index.html">Home</a></li>
-              <li><a class="link--projects" id="link" href="projects.html">Projects</a></li>
-              <li><a class="link--about" id="link" href="about.html">About</a></li>
-              <li><a class="link--contact" id="link" href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+        <div class="links--header">
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+          </label>
+              <img class="logo--header" src="Lenny-Rolle Logo.png">
+              <ul>
+                  <li class="nav--links"><a class="link--home" href="index.html">Home</a></li>
+                  <li class="nav--links"><a class="link--about" href="about.html">About</a></li>
+                  <li class="nav--links"><a class="link--projects" href="projects.html">Projects</a></li>
+                  <li class="nav--links"><a class="link--contact" href="contact.html">Contact</a></li>
+              </ul>
+          </div> 
       </div>
       <!--Showcase-->
       <div class="body--container">
         <h2 class="pagetitle--contact">Contact</h1>
         <form class="my--form">
           <h3 class="title--name">Name</h2>
-            <input type="text" name="email" size="15" />
+            <input type="text" name="name" size="15" />
           <h3 class="title--phone">Phone</h2>
-            <input type="text" name="email" size="15" />
+            <input type="text" name="phone" size="15" />
           <h3 class="title--email">Email</h2>
             <input type="text" name="email" size="15" />
           <h3 class="title--description">What do you want to know?</h3>
@@ -41,10 +44,12 @@
       </div>
       <footer class="main--footer">
         <ul>
-          <li><a href="https://github.com/ynnxl"><logo class="GitHub">GitHub</logo></a></li>
-          <li><a href="https://www.linkedin.com/in/lenny-rolle-5b5413119"><logo class="linkedin">LinkedIn</logo></a></li>
+            <li><a href="https://github.com/ynnxl">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/lenny-rolle-5b5413119">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100009209527459&viewas=100000686899395">Facebook</a></li>
+            <li><a href="https://www.instagram.com/ynnxl/">Instagram</a></li>
         </ul>
-        <p>Copyright 2021 Lenny Rolle. All Rights Reserved.</p>
+        <p class="copyright">Copyright &copy; 2021 My Website. All Rights Reserved.</p>
     </footer>
     </div>
   </body>

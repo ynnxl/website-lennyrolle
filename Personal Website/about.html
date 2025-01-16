@@ -6,53 +6,82 @@
         <meta name="keywords" content="HTML, CSS">
         <meta name="description" content="...">
         <title>About</title>
-        <link rel="stylesheet" type="text/css" href="../css/default.css" />
+        <link rel="stylesheet" type="text/css" href="./css/default.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.google.com/css?family-Timmana" rel="stylesheet">
+        <link href="https://fonts.google.com/css?family-Overlock" rel="stylesheet">
     </head>
     <body>       
         <div class="page--container">
             <div class="nav--header">
-                <div class="nav--container">
-                    <div class="links--header">
-                        <h1 class="logo--header">Lenny Rolle</h1>
-                            <ul>
-                                <li><a class="link--home" href="index.html">Home</a></li>
-                                <li><a class="link--projects" href="projects.html">Projects</a></li>
-                                <li><a class="link--about" href="about.html">About</a></li>
-                                <li><a class="link--contact" href="contact.html">Contact</a></li>
-                            </ul>
-                    </div>
-                </div>
+                <div class="links--header">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                        <img class="logo--header" src="Lenny-Rolle Logo.png">
+                        <ul>
+                            <li class="nav--links"><a class="link--home" href="index.html">Home</a></li>
+                            <li class="nav--links"><a class="link--about" href="about.html">About</a></li>
+                            <li class="nav--links"><a class="link--projects" href="projects.html">Projects</a></li>
+                            <li class="nav--links"><a class="link--contact" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div> 
             </div>
             <!--Showcase-->
             <div class="body--container">
                 <h2 class="pagetitle--about">About</h1>
+                    <div class="group--btn">
+                    <div class="btn--resume">
+                            <form class="get--resume" method="get" action="Resume-Lenny Rolle.pdf">
+                                <button type="submit">Resume</button>
+                            </form>
+                        </div>
+                    </div>
+                        
                     <div class="about--grid">
-                            <div class="group--skills">
+                        <div class="group--skills">
                             <h3 class="title--skills">Skills</h2>
                                 <div class="list--skills">
-                                    <p>Python</p>
-                                    <p>Java</p>
-                                    <p>HTML</p>
-                                    <p>Css</p>
-                                    <p>JavaScript</p>
-                                    <p>Photoshop</p>
+                                    <div class="skillgroup--coding">
+                                        <p class="skill--type">Coding</p>
+                                            <p class="skill--coding">Python</p>
+                                            <p class="skill--coding">Java</p>
+                                            <p class="skill--coding">HTML</p>
+                                            <p class="skill--coding">Css</p>
+                                            <p class="skill--coding">JavaScript</p>
+                                    </div>
+                                    <div class="skillgroup--design">
+                                        <p class="skill--type">Design</p>
+                                            <p class="skill--design">Canvas</p>
+                                            <p class="skill--design">Photoshop</p>
+                                            <p class="skill--design">Xd</p>
+                                    </div>
+                                    <div class="skillgroup--docformat">
+                                        <p class="skill--type">Document Formatting & Data Analysis</p>
+                                            <p class="skill--docformatanalysis">Microsoft Word</p>
+                                            <p class="skill--docformatanalysis">Microsft Excel</p>
+                                            <p class="skill--docformatanalysis">Google Docs</p>
+                                    </div>
                                 </div>
                         </div>
                         <div class="group--experience">
                             <h3 class="title--experience">Experience</h2>
                             <div class="list--experiences">
-                                <p>Summer Student| Bahamasair International Airport | 2019</p>
-                                <p>Volunteered for 2 Years | R.E.A.C.H Autism | 2018 & 2019</p>
+                                <p class="experience">Summer Student| Bahamasair International Airport | 2019</p>
+                                <p class="experience">Volunteered for 2 Years | R.E.A.C.H Autism | 2018 & 2019</p>
                             </div>    
                         </div>
                     </div>        
             </div>
             <footer class="main--footer">
                 <ul>
-                    <li><a href="https://github.com/ynnxl"><logo class="GitHub">GitHub</logo></a></li>
-                    <li><a href="https://www.linkedin.com/in/lenny-rolle-5b5413119"><logo class="linkedin">LinkedIn</logo></a></li>
+                    <li><a href="https://github.com/ynnxl">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/lenny-rolle-5b5413119">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009209527459&viewas=100000686899395">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/ynnxl/">Instagram</a></li>
                 </ul>
-                <p>Copyright 2021 My Website. All Rights Reserved.</p>
+                <p class="copyright">Copyright &copy; 2021 My Website. All Rights Reserved.</p>
             </footer>
         </div>
     </body>
